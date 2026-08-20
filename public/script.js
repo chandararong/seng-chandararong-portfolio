@@ -394,7 +394,7 @@ const videoProjects = [
         type: "local",
 
         source:
-            "assets/videos/Rotary.mp4",
+          "assets/videos/Rotary-web.mp4",
 
         thumbnail:
             "assets/videos/Thumb1.png",
@@ -422,7 +422,7 @@ const videoProjects = [
         type: "local",
 
         source:
-            "assets/videos/BPC (FullHD).mp4",
+            "assets/videos/BPC-web.mp4",
 
         thumbnail:
             "assets/videos/Thumb3.png",
@@ -452,7 +452,7 @@ const videoProjects = [
         type: "local",
 
         source:
-            "assets/videos/First Cambodia.mp4",
+            "assets/videos/First Cambodia-web.mp4",
 
         thumbnail:
             "assets/videos/Thumb4.png",
