@@ -14,37 +14,22 @@ export class App implements AfterViewInit {
     script.src = '/script.js';
 
     script.onload = () => {
-
       console.log('Portfolio script loaded successfully.');
 
-      const initPortfolio =
-        (window as any).initPortfolio;
+      const initPortfolio = (window as any).initPortfolio;
 
       if (typeof initPortfolio === 'function') {
-
         console.log('Calling initPortfolio...');
-
         initPortfolio();
-
       } else {
-
-        console.error(
-          'initPortfolio() was not found.'
-        );
-
+        console.error('initPortfolio() was not found.');
       }
-
     };
 
     script.onerror = () => {
-
-      console.error(
-        'Portfolio script failed to load.'
-      );
-
+      console.error('Portfolio script failed to load.');
     };
 
     document.body.appendChild(script);
   }
-
 }
